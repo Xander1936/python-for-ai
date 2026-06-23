@@ -4,5 +4,10 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.defaultInterpreterPath": "${workspaceFolder}\\python-for-ai\\.venv314\\Scripts\\python.exe",
+		"code-runner.executorMap": {
+			"python": "\"${workspaceFolder}\\python-for-ai\\.venv314\\Scripts\\python.exe\""
+		}
+	}
 }
