@@ -9,7 +9,7 @@
 first_name = "Alice"
 last_name = "Smith"
 
-full_name = first_name + " " + last_name
+full_name = first_name.lower() + " " + last_name.upper()
 print(full_name)
 
 long_dash = "-" * 12
@@ -28,3 +28,14 @@ drunk = True
 
 can_drive = age >= 18 and has_license and not drunk
 print(f"Can {first_name} drive? {can_drive}")
+
+sentence = "hi my name is Dave"
+sentence.title()
+
+print("Hi" in sentence)
+print(sentence.startswith("Hi"))
+print(sentence.endswith("Dave"))
+
+print(sentence.replace("Dave", "Alice"))
+print(sentence.find("Dave"))
+print(sentence.count("i"))
